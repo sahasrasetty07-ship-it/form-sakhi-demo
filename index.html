@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Form Sakhi | Live Demo</title>
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <main class="container">
+    <header>
+      <p class="tag">NPM PACKAGE DEMO</p>
+      <h1>Form Sakhi</h1>
+      <p>Simple and reliable form validation using our JavaScript NPM package.</p>
+    </header>
+
+    <form id="demoForm">
+      <label>Full Name
+        <input type="text" id="name" placeholder="Enter your name" required />
+      </label>
+
+      <label>Email Address
+        <input type="email" id="email" placeholder="hello@example.com" required />
+      </label>
+
+      <label>Indian Mobile Number
+        <input type="text" id="mobile" placeholder="9876543210" required />
+      </label>
+
+      <label>PIN Code
+        <input type="text" id="pincode" placeholder="411001" required />
+      </label>
+
+      <label>Password
+        <input type="password" id="password" placeholder="Enter a strong password" required />
+      </label>
+
+      <button type="submit">Validate Form</button>
+      <div id="result" aria-live="polite"></div>
+    </form>
+
+    <footer>Powered by the <strong>form-sakhi</strong> NPM package</footer>
+  </main>
+
+  <script type="module" src="/script.js"></script>
+</body>
+</html>
